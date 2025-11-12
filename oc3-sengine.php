@@ -3,7 +3,7 @@
   Plugin Name: OC3 Search engine
   Plugin URI:
   Description: Semantic search of your website content.
-  Author: Oleh Chornenkyy
+  Author: olevacho
   Author URI: https://github.com/olevacho/
   Text Domain: oc3-sengine
   Domain Path: /lang

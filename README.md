@@ -2,7 +2,7 @@
 
 === OC3 Search engine ===
 Name: OC3 Search engine
-Contributors: Chornenkyy Oleh 
+Contributors: olevacho 
 Tags: AI, Semantic search, search, RAG, AI embedding
 Requires at least: 5.6 
 Tested up to: 6.7
