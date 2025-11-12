@@ -1,0 +1,149 @@
+div.oc3sengine-search-input{
+      color: #000000;
+  position: relative;
+  width: 100%;
+  font-size: 10px;
+}
+.oc3sengine-search-input svg{
+    fill: currentColor;
+width: 25px;
+height: 25px;
+cursor: pointer;
+position: absolute;
+right: 10px;
+top: calc(50% - 12.5px);
+box-sizing: inherit;
+word-wrap: break-word;
+}
+svg:not(:root) {
+  overflow: hidden;
+}
+
+div.oc3sengine-search-input input{
+    color: #000000;
+font-size: 10px;
+width: 100%;
+background-color: #ffffff;
+border-radius: 5px;
+border: 1px solid #ccc;
+box-shadow: none;
+}
+
+div.oc3sengine-search-input input:focus{
+    border: 1px solid #bbb;
+}
+
+div.oc3sengine-search-result{
+    background-color: #eee;
+    z-index: 999999;
+}
+
+div.oc3sengine_search_item{
+    background-color: #fff;
+    margin: 5px;
+    padding: 5px;
+    padding-left: 7px;
+    padding-right: 7px;
+    position: relative;
+    top:5px;
+}
+div.oc3sengine_search_item_title a{
+    color: #0073aa;
+} 
+.oc3sengine_search_item_excerpt a{
+    font-weight: 900;
+}
+
+/*LOADER START*/
+.oc3sengine_bloader{
+    position:relative;
+}
+
+.oc3sengine-custom-loader {
+    color:#ccc;
+    margin: auto;
+}
+.oc3sengine-custom-loader {
+    width: 25px;
+    height: 25px;
+    display: grid;
+
+    background: radial-gradient(farthest-side, currentColor calc(100% - 3px),#0000 calc(100% - 2.5px) 0);
+    -webkit-mask:radial-gradient(farthest-side,#0000 calc(100% - 6.5px),#000 calc(100% - 6px));
+    border-radius: 50%;
+    animation: s9 2s infinite linear;
+}
+.oc3sengine-custom-loader::before,
+.oc3sengine-custom-loader::after {
+    content:"";
+    grid-area: 1/1;
+    background:
+        linear-gradient(currentColor 0 0) center,
+        linear-gradient(currentColor 0 0) center;
+    background-size: 100% 5px,5px 100%;
+    background-repeat: no-repeat;
+}
+.oc3sengine-custom-loader::after {
+    transform: rotate(45deg);
+}
+.oc3sengine-custom-loader.oc3sengine-models-loader{
+    left:20%;
+}
+.oc3sengine-custom-loader {
+    display:none;
+}
+
+.oc3sengine-search-loading{
+    background: #fff;
+}
+
+
+@keyframes s9 {
+    100%{
+        transform: rotate(1turn)
+    }
+}
+
+
+@media (max-width: 1380px) {
+
+    
+}
+
+@media (max-width: 1300px) {
+
+}
+
+@media (max-width: 1180px) {
+
+
+}
+
+@media (max-width: 782px) {
+
+}
+@media (max-width: 768px) {
+
+}
+
+
+
+@media (max-width: 520px){
+
+
+    
+}
+
+@media (max-width: 480px) {
+
+}
+
+
+/****/
+
+
+
+
+
+
+/***/
